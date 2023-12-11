@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
+<head>
+	<!-- Basic Meta Tags -->
+  <meta charset="utf-8">
+  <title>HouseHunter</title>
+	<meta name="description" content="ucorpora demo - Free Business Corporate HTML Template">
+	<meta name="keywords" content="ucorpora, ucorpora demo, free, template, corporate, clean, modern, bootstrap, creative, design">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if (gte IE 9)|!(IE)]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <![endif]-->
+
+  <!-- Favicon -->
+  <link href="{% static "img/favicon.ico" %}" rel="icon" type="image/png">
+
+  <!-- Styles -->
+  <link href="{% static "css/styles.css" %}" rel="stylesheet">
+  <link href="{% static "css/bootstrap-override.css" %}" rel="stylesheet">
+
+  <!-- Font Avesome Styles -->
+  <link href="{% static "css/font-awesome/font-awesome.css" %}" rel="stylesheet">
+	<!--[if IE 7]>
+		<link href="{% static "css/font-awesome/font-awesome-ie7.min.css" %}" rel="stylesheet">
+	<![endif]-->
+
+  <!-- FlexSlider Style -->
+  <link rel="stylesheet" href="{% static "css/flexslider.css" %}" type="text/css" media="screen">
+
+	<!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="row t-container">
+
+        <!-- Logo -->
+        <div class="span3">
+          <div class="logo">
+            <a href="/"><img src="{% static "img/logo.png" %}" alt=""></a>
+          </div>            
+        </div>
+
+        <div class="span9">
+          <div class="row space60"></div>
+
+              {% autoescape off %}
+                {{ header }}
+              {% endautoescape %}
+
+         </div> 
+      </div> 
+       <div class="row space40"></div>
+  </div> 
+</header><!-- Header End -->
+
+<!-- Titlebar
+================================================== -->
+    <section id="titlebar">
+	<!-- Container -->
+	<div class="container">
+	
+		<div class="eight columns">
+			<h3 class="left">Service</h3>
+		</div>
+		
+		<div class="eight columns">
+			<nav id="breadcrumbs">
+				<ul>
+					<li>You are here:</li>
+					<li><a href="#">Home</a></li>
+					<li>Service</li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+	<!-- Container / End -->
+</section>
+
+  <!-- Content -->
+  <div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h4>Interested in real estate?</h4>
+          <p>Our company is engaged in buying, selling and investing in real estate. We have been working in this market for many years. Our well-coordinated team works for you every day.</p>
+
+          <p>We are constantly looking for promising investment properties. We will help you find or sell real estate. We also create investment packages with balanced risks and interests.</p>
+
+          <h3>We have provide best service</h3>
+          <div class="ic-1"></div>
+          <img src="{% static "img/city_img.jpg" %}" alt="">
+          <div class="title-1"><h4>Our Service:</h4></div>
+           <!-- List -->
+          <div class="text-1"> 
+            <ul class="list-b">
+              <!-- List Items -->
+              <li><i class="icon-ok"></i> Buying a property.</li>
+              <li><i class="icon-ok"></i> Property For Sale.</li>
+              <li><i class="icon-ok"></i> Investments.</li>
+              <li><i class="icon-ok"></i> Market analysis.</li>
+              <li><i class="icon-ok"></i> Property valuation.</li>
+            </ul>     
+          </div>
+          <!-- List End -->
+      <!-- List End -->
+      <div class="space20"></div>
+      <div class="row">
+        <div class="span6">
+          <div class="ic-1"><i class="icon-lightbulb"></i></div>
+          <div class="title-1"><h4>PREDICT PROPERLY PRICE</h4></div>
+          <div class="text-1"> 
+            Our neural network is an innovative solution that will help users quickly and accurately determine the cost of an apartment based on its photo.
+            We understand that determining the market value of real estate can be a difficult task that requires expertise and time. You can easily use our neural network by uploading a photo of the apartment to our platform.
+            The neural network will quickly process the photo and provide the user with an estimate of the cost of the apartment based on the analysis of visual characteristics.
+          </div>
+        </div>
+        <div class="span6">
+          <div class="ic-1"><i class="icon-eye-open"></i></div>
+          <div class="title-1"><h4>PREDICT FUTURE PRICE</h4></div>
+          <div class="text-1">
+            Our neural network is an innovative solution that helps users quickly and accurately determine the cost of an apartment based on its characteristics and address.
+            It is an innovative solution that helps users quickly and accurately determine the cost of an apartment based on its characteristics and address.
+        </div>    
+      </div>   
+      
+      <div class="space30"></div> 
+      
+      <!-- Typography Row -->
+      <div class="row t-row">
+        <!-- Line -->
+        <div class="span12"><hr></div>
+        <div class="span9">
+          <h2>We conduct a thorough market assessment</h2>
+        </div>
+        <div class="span3">
+          <!-- Button -->
+          <div class="btn btn-blue f-right">
+            <!-- Title -->
+            <h3><i class="icon-signin hidden-tablet"></i> Accession</h3>
+          </div>
+        </div>
+        <div class="space30 visible-phone"></div>
+        <!-- Line -->
+        <div class="span12"><hr></div>
+      </div>
+      <!-- Typography Row End-->
+
+    </div>
+  </div> </div> </div> </div>
+  <!-- Content End -->
+  
+ <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span5">
+        <h3>Contact Form</h3>
+        <div>         
+          <form class="form-main" name="ajax-form" id="ajax-form" action="/send_mes" method="post">
+            {% csrf_token %}
+            <div id="ajaxsuccess">E-mail was successfully sent.</div> 
+            <div class="error" id="err-name">Please enter name</div>
+            <input name="name" id="name" type="text" value="Name" onfocus="if(this.value == 'Name') this.value='';" onblur="if(this.value == '') this.value='Name';">
+            
+            <div class="error" id="err-email">Please enter e-mail</div>
+		        <div class="error" id="err-emailvld">E-mail is not a valid format</div>
+            <input  name="email" id="email" type="text" value="E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';">
+
+            <div class="error" id="err-message">Please enter message</div>
+            <textarea  name="message" id="message" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea><br>
+            <div>
+            	<div class="error" id="err-form">There was a problem validating the form please check!</div>
+            	<div class="error" id="err-timedout">The connection to the server timed out!</div>
+            	<div class="error" id="err-state"></div>
+            </div>
+            <button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>
+          </form>
+        </div>
+        </div>
+        <div class="span3 offset3">
+          <h3>Address</h3>
+          81 ... Street<br>
+          ... city, ... 90185<br>
+          United States<br>
+          <br>
+          <i class="icon-phone"></i>+01 880 123 456<br>
+          <i class="icon-envelope"></i>gmail@gmail.com<br>
+          <i class="icon-home"></i><a href="/">www.HouseHunter.com</a>
+          
+          <div class="row space40"></div>  
+
+          <a href="#" class="social-network sn2 facebook"></a>
+          <a href="#" class="social-network sn2 twitter"></a>
+          <a href="#" class="social-network sn2 skype"></a>
+          <a href="#" class="social-network sn2 youtube"></a>
+        </div>
+      </div>
+      
+      <div class="row space50"></div>
+      <div class="row">
+        <div class="span6">
+          <div class="logo-footer">
+            Shool project
+          </div>                       
+        </div>
+        <div class="span6 right">
+          &copy; 2023. All rights reserved.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="{% static "js/jquery-1.8.3.min.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/bootstrap.min.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/functions.js" %}"></script>
+  <script type="text/javascript" defer src="{% static "js/jquery.flexslider.js" %}"></script>
+
+</body>
+</html>
